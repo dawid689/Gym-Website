@@ -20,10 +20,9 @@ function Hero() {
           <div>
             <span className="stroke-text">Shape </span>
             <span>Your</span>
+            <span> Ideal Body</span>
           </div>
-          <div>
-            <span>Ideal Body</span>
-          </div>
+          <div></div>
           <div>
             <span>
               In here we will help you shape and build your ideal body and live
