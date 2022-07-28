@@ -58,6 +58,6 @@
 }
 
 .category:hover {
-  background-color: var(--orange);
+  background: var(--planCard);
   cursor: pointer;
 }
