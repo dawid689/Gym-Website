@@ -89,3 +89,32 @@
 .partners > img {
   width: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .Reasons {
+    flex-direction: column;
+  }
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+    grid-template-columns: 7rem 1fr 7rem 1fr 7rem;
+  }
+  .left-r > :nth-child(1) {
+    width: 7rem;
+    height: 21rem;
+    justify-self: start;
+  }
+  .left-r > :nth-child(2) {
+    width: 14rem;
+    height: 10rem;
+    justify-self: start;
+  }
+  .left-r > :nth-child(3) {
+    width: 8rem;
+    height: 10rem;
+  }
+  .left-r > :nth-child(4) {
+    width: 7rem;
+    height: 10rem;
+  }
+}
